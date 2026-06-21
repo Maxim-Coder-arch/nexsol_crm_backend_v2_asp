@@ -1,0 +1,6 @@
+@NexsolCrmBackendVersion2_HostAddress = http://localhost:5008
+
+GET {{NexsolCrmBackendVersion2_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

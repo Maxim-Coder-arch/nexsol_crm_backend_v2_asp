@@ -1,0 +1,225 @@
+[
+  {
+    "ContainingType": "NexsolCrmBackendVersion2.Controllers.BidsController",
+    "Method": "GetAllLeads",
+    "RelativePath": "api/Bids/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NexsolCrmBackendVersion2.Controllers.BidsController",
+    "Method": "UpdateStatusOneLead",
+    "RelativePath": "api/Bids/bid/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newLead",
+        "Type": "NexsolCrmBackendVersion2.Dtos.HeroSectionDtos.LeadDto",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NexsolCrmBackendVersion2.Controllers.BidsController",
+    "Method": "DeleteOne",
+    "RelativePath": "api/Bids/bid/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NexsolCrmBackendVersion2.Controllers.ClientsController",
+    "Method": "AddNewClient",
+    "RelativePath": "api/Clients/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "NexsolCrmBackendVersion2.Dtos.Clients.ClientDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NexsolCrmBackendVersion2.Controllers.ClientsController",
+    "Method": "GetAllClients",
+    "RelativePath": "api/Clients/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NexsolCrmBackendVersion2.Controllers.ClientsController",
+    "Method": "DeleteOneClient",
+    "RelativePath": "api/Clients/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NexsolCrmBackendVersion2.Controllers.ClientsController",
+    "Method": "UpdateOneClient",
+    "RelativePath": "api/Clients/update/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "newClient",
+        "Type": "NexsolCrmBackendVersion2.Dtos.Clients.ClientDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NexsolCrmBackendVersion2.Controllers.HeroSectionController",
+    "Method": "GetChartData",
+    "RelativePath": "api/HeroSection/chart",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "period",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NexsolCrmBackendVersion2.Controllers.HeroSectionController",
+    "Method": "GetAllLeads",
+    "RelativePath": "api/HeroSection/leads",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NexsolCrmBackendVersion2.Controllers.HeroSectionController",
+    "Method": "GetVisitorsStats",
+    "RelativePath": "api/HeroSection/stats",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NexsolCrmBackendVersion2.Controllers.HeroSectionController",
+    "Method": "GetAllUsers",
+    "RelativePath": "api/HeroSection/users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NexsolCrmBackendVersion2.Controllers.HeroSectionController",
+    "Method": "GetAllVisitors",
+    "RelativePath": "api/HeroSection/visitors",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NexsolCrmBackendVersion2.Controllers.HeroSectionController",
+    "Method": "GetRecentVisitors",
+    "RelativePath": "api/HeroSection/visitors/details",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NexsolCrmBackendVersion2.Controllers.ReviewsController",
+    "Method": "GetAllReviews",
+    "RelativePath": "api/Reviews/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NexsolCrmBackendVersion2.Controllers.ReviewsController",
+    "Method": "UpdateOneReview",
+    "RelativePath": "api/Reviews/review/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "newReview",
+        "Type": "NexsolCrmBackendVersion2.Dtos.Reviews.ReviewDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NexsolCrmBackendVersion2.Controllers.ReviewsController",
+    "Method": "DeleteOneReview",
+    "RelativePath": "api/Reviews/review/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
