@@ -34,7 +34,7 @@ namespace NexsolCrmBackendVersion2.Services.ClientsService
         {
             try
             {
-                var filter = Builders<Client>.Filter.Eq(c => c._id, id);
+                var filter = Builders<Client>.Filter.Eq(c => c._Id, id);
 
                 var update = Builders<Client>.Update
                     .Set(c => c.Name, newClient.Name)
@@ -57,7 +57,7 @@ namespace NexsolCrmBackendVersion2.Services.ClientsService
 
         public async Task<bool> DeleteOneClientService(string id, IMongoCollection<Client> _clients)
         {
-            var filter = Builders<Client>.Filter.Eq(c => c._id, id);
+            var filter = Builders<Client>.Filter.Eq(c => c._Id, id);
             var result = await _clients.DeleteOneAsync(filter);
             return result.DeletedCount > 0;
         }

@@ -137,9 +137,9 @@ namespace NexsolCrmBackendVersion2.Services.HeroSectionService
 
                 List<VisitorDetailsDto> formattedVisitors = visitors.Select(v => new VisitorDetailsDto
                 {
-                    Id = !string.IsNullOrEmpty(v.VisitorId) && v.VisitorId.Length > 8
+                    _Id = !string.IsNullOrEmpty(v.VisitorId) && v.VisitorId.Length > 8
                         ? v.VisitorId.Substring(v.VisitorId.Length - 8)
-                        : v.Id,
+                        : v._Id,
                     Page = v.Page,
                     Source = HeroSectionHelper.GetSource(v.Referrer),
                     Device = HeroSectionHelper.GetDevice(v.UserAgent),

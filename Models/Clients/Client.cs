@@ -7,7 +7,7 @@ namespace NexsolCrmBackendVersion2.Models.Clients
     {
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
-        public string _id { get; set; }
+        public string _Id { get; set; }
         public string Name { get; set; }
         public string WorkStatus { get; set; }
         public string PhysicalStatus { get; set; }

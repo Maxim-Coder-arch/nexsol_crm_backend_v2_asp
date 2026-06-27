@@ -13,7 +13,7 @@ namespace NexsolCrmBackendVersion2.Services.BidsService
 
         public async Task<Lead?> UpdateStatusOneLeadService(string id, IMongoCollection<Lead> _leads, LeadDto newLead)
         {
-            var filter = Builders<Lead>.Filter.Eq(l => l.Id, id);
+            var filter = Builders<Lead>.Filter.Eq(l => l._Id, id);
             var updateLead = Builders<Lead>.Update.Set(l => l.Status, newLead.Status).Set(l => l.UpdatedAt, DateTime.UtcNow);
             var result = await _leads.UpdateOneAsync(filter, updateLead);
 
@@ -25,7 +25,7 @@ namespace NexsolCrmBackendVersion2.Services.BidsService
 
         public async Task<bool> DeleteOneService(string id, IMongoCollection<Lead> _leads)
         {
-            var filter = Builders<Lead>.Filter.Eq(l => l.Id, id);
+            var filter = Builders<Lead>.Filter.Eq(l => l._Id, id);
             var result = await _leads.DeleteOneAsync(filter);
             return result.DeletedCount > 0;
         }

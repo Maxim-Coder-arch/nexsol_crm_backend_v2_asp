@@ -7,7 +7,7 @@ namespace NexsolCrmBackendVersion2.Models.Reviews
     {
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
-        public string Id { get; set; }
+        public string _Id { get; set; }
         public string Name { get; set; }
         public string Role { get; set; }
         public string Text { get; set; }

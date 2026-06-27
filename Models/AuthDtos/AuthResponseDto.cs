@@ -1,20 +1,14 @@
-﻿using MongoDB.Bson;
-using MongoDB.Bson.Serialization.Attributes;
-
-namespace NexsolCrmBackendVersion2.Models.HeroSection
+﻿namespace NexsolCrmBackendVersion2.Models.AuthDtos
 {
-    public class User
+    public class AuthResponseDto
     {
-        [BsonId]
-        [BsonRepresentation(BsonType.ObjectId)]
+        public string Token { get; set; }
         public string _Id { get; set; }
         public string Name { get; set; }
         public string Email { get; set; }
-        public string Password { get; set; }
         public string Role { get; set; }
         public List<string> Specialties { get; set; }
         public List<string> Responsibilities { get; set; }
         public DateTime CreatedAt { get; set; }
-        public DateTime UpdatedAt { get; set; }
     }
 }

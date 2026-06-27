@@ -7,7 +7,7 @@ namespace NexsolCrmBackendVersion2.Models.HeroSection
     {
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
-        public string Id { get; set; }
+        public string _Id { get; set; }
         public string VisitorId { get; set; }
         public string Page {  get; set; }
         public string Referrer { get; set; }

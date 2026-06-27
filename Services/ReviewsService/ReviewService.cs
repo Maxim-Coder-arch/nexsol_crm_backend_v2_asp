@@ -13,7 +13,7 @@ namespace NexsolCrmBackendVersion2.Services.ReviewsService
 
         public async Task<Review?> UpdateOneReviewService(string id, ReviewDto newReview, IMongoCollection<Review> _reviews)
         {
-            var filter = Builders<Review>.Filter.Eq(r => r.Id, id);
+            var filter = Builders<Review>.Filter.Eq(r => r._Id, id);
             var updateReview = Builders<Review>.Update.Set(r => r.Status, newReview.Status).Set(r => r.UpdatedAt, DateTime.UtcNow);
             var result = await _reviews.UpdateOneAsync(filter, updateReview);
 
@@ -25,7 +25,7 @@ namespace NexsolCrmBackendVersion2.Services.ReviewsService
 
         public async Task<bool> DeleteOneReviewService(string id, IMongoCollection<Review> _reviews)
         {
-            var filter = Builders<Review>.Filter.Eq(r => r.Id, id);
+            var filter = Builders<Review>.Filter.Eq(r => r._Id, id);
             var result = await _reviews.DeleteOneAsync(filter);
             return result.DeletedCount > 0;
         }

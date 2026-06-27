@@ -39,3 +39,14 @@ C:\Users\Максим\OneDrive\Рабочий стол\NexsolCrmBackendVersion2\
 C:\Users\Максим\OneDrive\Рабочий стол\NexsolCrmBackendVersion2\NexsolCrmBackendVersion2\obj\Debug\net10.0\NexsolCrmBackendVersion2.pdb
 C:\Users\Максим\OneDrive\Рабочий стол\NexsolCrmBackendVersion2\NexsolCrmBackendVersion2\obj\Debug\net10.0\NexsolCrmBackendVersion2.genruntimeconfig.cache
 C:\Users\Максим\OneDrive\Рабочий стол\NexsolCrmBackendVersion2\NexsolCrmBackendVersion2\obj\Debug\net10.0\ref\NexsolCrmBackendVersion2.dll
+C:\Users\Максим\OneDrive\Рабочий стол\NexsolCrmBackendVersion2\NexsolCrmBackendVersion2\obj\Debug\net10.0\NexsolCrmBackendVersion2.sourcelink.json
+C:\Users\Максим\OneDrive\Рабочий стол\NexsolCrmBackendVersion2\NexsolCrmBackendVersion2\bin\Debug\net10.0\BCrypt-Net-Next.dll
+C:\Users\Максим\OneDrive\Рабочий стол\NexsolCrmBackendVersion2\NexsolCrmBackendVersion2\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Максим\OneDrive\Рабочий стол\NexsolCrmBackendVersion2\NexsolCrmBackendVersion2\bin\Debug\net10.0\Microsoft.Bcl.Cryptography.dll
+C:\Users\Максим\OneDrive\Рабочий стол\NexsolCrmBackendVersion2\NexsolCrmBackendVersion2\bin\Debug\net10.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Максим\OneDrive\Рабочий стол\NexsolCrmBackendVersion2\NexsolCrmBackendVersion2\bin\Debug\net10.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Максим\OneDrive\Рабочий стол\NexsolCrmBackendVersion2\NexsolCrmBackendVersion2\bin\Debug\net10.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Максим\OneDrive\Рабочий стол\NexsolCrmBackendVersion2\NexsolCrmBackendVersion2\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Максим\OneDrive\Рабочий стол\NexsolCrmBackendVersion2\NexsolCrmBackendVersion2\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Максим\OneDrive\Рабочий стол\NexsolCrmBackendVersion2\NexsolCrmBackendVersion2\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Максим\OneDrive\Рабочий стол\NexsolCrmBackendVersion2\NexsolCrmBackendVersion2\bin\Debug\net10.0\System.IdentityModel.Tokens.Jwt.dll

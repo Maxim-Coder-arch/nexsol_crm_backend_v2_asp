@@ -2,7 +2,7 @@
 {
     public class VisitorDetailsDto
     {
-        public string Id { get; set; }
+        public string _Id { get; set; }
         public string Page { get; set; }
         public string Source { get; set; }
         public string Device { get; set; }
