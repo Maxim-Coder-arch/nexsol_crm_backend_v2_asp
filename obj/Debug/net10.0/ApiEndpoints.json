@@ -255,6 +255,64 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "NexsolCrmBackendVersion2.Controllers.ServicesController",
+    "Method": "GetAllServices",
+    "RelativePath": "api/Services/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NexsolCrmBackendVersion2.Controllers.ServicesController",
+    "Method": "CreateOneService",
+    "RelativePath": "api/Services/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "NexsolCrmBackendVersion2.Dtos.ServicesDtos.ServiceDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NexsolCrmBackendVersion2.Controllers.ServicesController",
+    "Method": "DeleteOneService",
+    "RelativePath": "api/Services/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NexsolCrmBackendVersion2.Controllers.TeamMembersController",
+    "Method": "AddNewUser",
+    "RelativePath": "api/TeamMembers/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "NexsolCrmBackendVersion2.Dtos.TeamMemberDtos.TeamMemberDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "NexsolCrmBackendVersion2.Controllers.TeamMembersController",
     "Method": "GetAllTeamMembers",
     "RelativePath": "api/TeamMembers/all",
@@ -262,6 +320,43 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NexsolCrmBackendVersion2.Controllers.TeamMembersController",
+    "Method": "UpdateOneUser",
+    "RelativePath": "api/TeamMembers/user/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "NexsolCrmBackendVersion2.Dtos.TeamMemberDtos.TeamMemberDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NexsolCrmBackendVersion2.Controllers.TeamMembersController",
+    "Method": "DeleteOneUser",
+    "RelativePath": "api/TeamMembers/user/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   }
 ]
